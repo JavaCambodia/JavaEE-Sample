@@ -6,7 +6,7 @@ The Presentation and Sample about JavaEE by Heng Mao, Nokor Group for Barcamp PP
 
 ## Contact
 
-- Developer: Mr. Heng Mao<mao_heng2005@yahoo.com>
+- Developer: Mr. Heng Mao<mao.heng2005@gmail.com>
 - Other contact: http://osify.com/contact
 
 
