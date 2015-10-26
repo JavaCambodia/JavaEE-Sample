@@ -1,9 +1,10 @@
-<%@page import="entitybean.StudentVO"%>
+<%@page import="beo.StudentVO"%>
 <%@page import="java.util.*"%>
 
 <%
 	List<StudentVO> students = (List<StudentVO>) session.getAttribute("students");
 %>
+<html>
 <script language="javascript">
     function setSelectedItem(elementId) {
         if (confirm("Do you really want to delete this item?")){
@@ -18,7 +19,6 @@
     	document.forms["student"].submit();
     }
 </script>
-<html>
 <body>
 	<form action="/jee/MainServlet" method="GET" name="student">
 		<input name="selecteditem" type="hidden" value="" />
@@ -26,11 +26,11 @@
 		<br/></br><br/><br/>
 		<div align="center">
 			<table>
-				</tr>
+				<tr>
 					<td>ID</td>
-					<td><input type="input" name="txtId"/></td>
+					<td><input type="text" name="txtId"/></td>
 					<td>NAME</td>
-					<td><input type="input" name="txtName"/></td>
+					<td><input type="text" name="txtName"/></td>
 					<td>GENDER</td>
 					<td><select name="cmbGender">
 						<option value=""></option>
@@ -38,7 +38,7 @@
 						<option value="FEMALE">FEMALE</option>
 					</select></td>	
 				<tr>
-				</tr>
+				<tr>
 					<td colspan="6">
 						<input type="button" value="search" onclick="sendTask('SEARCH');"/>
 						<input type="button" value="save" onclick="sendTask('SAVE');"/>

@@ -4,7 +4,8 @@ import java.util.List;
 
 import javax.naming.NamingException;
 
-import entitybean.StudentVO;
+import beo.StudentVO;
+
 import facades.StudentFacadeSessionLocal;
 import facades.StudentFacadeSessionUtil;
 

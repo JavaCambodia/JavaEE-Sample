@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 
 import util.StringUtils;
 import bd.StudentBD;
-import entitybean.StudentVO;
+import beo.StudentVO;
 
 @WebServlet(name = "MainServlet", 
 	urlPatterns = "/MainServlet"

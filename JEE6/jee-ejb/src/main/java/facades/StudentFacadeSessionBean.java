@@ -12,14 +12,14 @@ import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.naming.NamingException;
 
+import beo.StudentBEOLocal;
+import beo.StudentVO;
 import bpo.StudentBPOLocal;
 import bpo.StudentBPOUtil;
-import entitybean.StudentBEOLocal;
-import entitybean.StudentVO;
 
 //@Stateful
 @Stateless
-public class StudentFacadeSessionBean implements StudentFacadeSessionLocal {
+public class StudentFacadeSessionBean implements StudentFacadeSessionLocal, StudentFacadeSessionRemote {
 	
 	@EJB
 	StudentBEOLocal studentBEOLocal;

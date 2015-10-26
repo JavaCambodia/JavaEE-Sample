@@ -4,8 +4,9 @@ import java.util.List;
 
 import javax.ejb.Local;
 
+import beo.StudentVO;
+
 import util.JEENamingUtil;
-import entitybean.StudentVO;
 
 //@Remote
 @Local

@@ -5,8 +5,9 @@ import java.util.List;
 
 import javax.ejb.Stateless;
 
+import beo.StudentVO;
+
 import dao.StudentDAOImp;
-import entitybean.StudentVO;
 
 @Stateless
 public class StudentBPOBean implements StudentBPOLocal {

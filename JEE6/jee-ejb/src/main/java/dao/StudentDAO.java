@@ -3,7 +3,8 @@ package dao;
 import java.sql.SQLException;
 import java.util.List;
 
-import entitybean.StudentVO;
+import beo.StudentVO;
+
 
 public interface StudentDAO {
 	List<StudentVO> getAllStudents() throws SQLException;
