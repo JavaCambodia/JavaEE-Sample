@@ -14,3 +14,5 @@ The Presentation and Sample about JavaEE by Heng Mao, Nokor Group for Barcamp PP
 
 - Signup Chat: http://goo.gl/forms/8UMZTdQaIe
   (You will get invitation as soon as I see it)
+  
+  
